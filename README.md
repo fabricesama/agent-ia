@@ -1,8 +1,7 @@
 # TalentBot - Agent IA Autonome de Recrutement
 
 ## 👥 Membres du projet
-- [Votre Nom / Prénom]
-- [Nom / Prénom du binôme si applicable]
+- SAMA Fabrice-Ertone
 
 ## 🎯 Thématique choisie
 **TalentBot** est un agent conversationnel autonome conçu pour épauler les équipes de Ressources Humaines. Grâce à une boucle de réflexion autonome (ReAct), il est capable d'analyser des profils de candidats, d'évaluer l'adéquation avec une fiche de poste et de générer des questions techniques pour préparer les entretiens.
