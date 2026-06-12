@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalentBot - Agent RH Autonome</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="bot-icon">🤖</span>
+                <div>
+                    <h1>TalentBot</h1>
+                    <p class="status"><span class="status-dot"></span> Agent de Recrutement Autonome</p>
+                </div>
+            </div>
+            <button id="clear-btn" title="Effacer l'historique">Réinitialiser la mémoire</button>
+        </header>
+
+        <main class="chat-wrapper">
+            <div id="chat-box" class="chat-box">
+                <div class="message bot-message">
+                    <div class="avatar">🤖</div>
+                    <div class="content">
+                        Bonjour ! Je suis <strong>TalentBot</strong>, votre assistant de recrutement autonome. <br><br>
+                        Je peux :
+                        <ul>
+                            <li>Consulter et analyser le CV de nos candidats (ex: demandez-moi : <em>"Quelles sont les compétences d'Alice ?"</em>)</li>
+                            <li>Évaluer l'adéquation d'un profil par rapport à une fiche de poste.</li>
+                            <li>Générer des questions de préparation pour vos prochains entretiens.</li>
+                        </ul>
+                        Comment puis-je vous aider aujourd'hui ?
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="input-container">
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Posez votre question à l'agent (ex: Analyse le profil de Bob)..." autocomplete="off">
+                <button id="send-btn">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+                    </svg>
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

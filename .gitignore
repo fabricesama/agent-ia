@@ -1,0 +1,4 @@
+.env
+backend/memory.json
+__pycache__/
+.pytest_cache/
